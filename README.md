@@ -1,7 +1,7 @@
 # SoaSecurityProject
 Progetto per il corso di Sicurezza delle Architetture Orientate ai Servizi
 
-Obiettivo
+# Obiettivo
 
 L’obiettivo di questo progetto è la realizzazione di un implementazione di un OAuth server semplificato. Essenzialmente consente l'emissione di un token di accesso da parte di un server autorizzativo ad un client di terze parti, previa approvazione dell'utente proprietario della risorsa cui si intende accedere. L’utente può accedere all’applicazione web loggandosi all’authorization server e richiedere la visione dei propri dati personali presentando un token di accesso valido precedentemente ottenuto. Per far ciò ho utilizzato una libreria open source scritta in php. Questa libreria fornisce un insieme di classi php per l’implementazione di un server oauth. Nello specifico permette la creazione e gestione dei token, fornisce tutte le informazioni del client (es: client ID, secret client, ecc…), permette di abilitare i diversi tipi di grant type e fornisce la struttura del database sql. La documentazione dettagliata è visibile a questo indirizzo: https://bshaffer.github.io/oauth2-server-php-docs/.
 
