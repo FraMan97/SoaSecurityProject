@@ -22,7 +22,7 @@ Nello specifico, l’applicazione client da me creata permette di effettuare i s
 
 # Token di accesso
 
-Il token di accesso inviato dall’authorization server è nello specifico un JWT token che utilizza JSON Web Signatures e la crittografia a chiave pubblica per verificarne la validità. Il server OAuth firma il token con la sua chiave privata e il client può verificarlo con la chiave pubblica fornitagli dal server in fase di registrazione. Non solo il client può verificare la validità, ma anche lo stesso server può farlo quando riceve il token prima di inviare una certa risorsa.
+Il token di accesso inviato dall’authorization server è un JWT token che utilizza JSON Web Signatures e la crittografia a chiave pubblica per verificarne la validità. Il server OAuth firma il token con la sua chiave privata e il client può verificarlo con la chiave pubblica fornitagli dal server in fase di registrazione. Non solo il client può verificare la validità, ma anche lo stesso server può farlo quando riceve il token prima di inviare una certa risorsa.
 Il formato del token è il seguente: HEADER.PAYLOAD.SIGNATURE
 1.	HEADER: contiene informazioni di configurazione come l’algoritmo usato per la firma (RSA a 2048 bit di base).
 2.	PAYLOAD: contiene i dati veri e propri del token, come un identificatore, l’id del client e dell’utente, il timestamp di scadenza e il timestamp di creazione.
