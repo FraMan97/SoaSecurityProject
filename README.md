@@ -38,7 +38,7 @@ E’ importante ricordare che per usare questa modalità, l’utente dovrà esse
 
 # Resource Owner Password Credentials
 In questa modalità l’utente inserisce direttamente le sue credenziali di accesso al server sull’applicazione client. E’ una modalità utilizzabile soltanto nei casi in cui il client sia molto sicuro.
-Progetto
+
 Sia l’authorization server, sia l’applicazione client sono stati caricati su due indirizzi di altervista.
 
 L’authorization server: https://myoauthdemo.altervista.org
